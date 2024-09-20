@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "/Users/nirmeet/Documents/honey_coding",
+      "program": "/Users/nirmeet/Documents/honey_coding/build/Debug/outDebug"
+    }
+  ]
+}
