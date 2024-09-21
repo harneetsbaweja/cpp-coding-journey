@@ -2,23 +2,24 @@
 
 int main()
 {
-    int number = 1040;
-    int factors_qty = 0;
+    int number = 1039;
+    int factor = 0;
 
-    for (int i = 1; i <= number; i++)
+    for (int i = 2; i <= number; i++)
     {
         if (number % i == 0)
         {
-            factors_qty++;
+            factor = i;
+            break;
         }
     }
 
-    if (factors_qty == 2)
+    if (factor == number)
     {
         std::cout<<number<<" is prime";    
     }
     
-    if (factors_qty != 2)
+    if (factor != number)
     {
         std::cout<<number<<" is not prime";
     }
