@@ -2,10 +2,10 @@
 
 int main()
 {
-    int number = 1039;
+    int number = 24;
     int factor = 0;
 
-    for (int i = 2; i <= number; i++)
+    for (int i = 2; i < number; i++)
     {
         if (number % i == 0)
         {
@@ -14,12 +14,12 @@ int main()
         }
     }
 
-    if (factor == number)
+    if (factor == 0)
     {
         std::cout<<number<<" is prime";    
     }
     
-    if (factor != number)
+    if (factor > 0)
     {
         std::cout<<number<<" is not prime";
     }
